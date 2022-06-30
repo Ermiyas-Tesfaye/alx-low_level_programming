@@ -1,7 +1,8 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- * main function: a function thet print some text
- * Return: always 0 will be returned
+ * main - Entry point
+ *
+ * Return: Always: 0 (Success)
  */
 int main(void)
 {
