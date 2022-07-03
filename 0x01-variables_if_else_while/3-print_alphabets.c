@@ -15,6 +15,7 @@ int main(void)
 		putchar(str[i]);
 		i++;
 	}
+	i = 0;
 	while (str[i])
 	{
 		putchar(toupper(str[i]));
