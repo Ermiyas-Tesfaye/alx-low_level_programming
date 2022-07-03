@@ -12,7 +12,6 @@ int main(void)
 	while (str[x])
 		putchar(str[x]);
 		x++;
-	}
 	putchar('\n');
 	return (0);
 }
