@@ -6,10 +6,13 @@
  */
 int main(void)
 {
-	for (int i = 'A'; i <= 'Z'; i++)
+	int i = 0;
+	char str[] = "abcdefghijklmnopqrstuvwxyz";
+
+	while (str[i])
 	{
-		int x = tolower(i);
-		putchar(x);
+		putchar(str[i]);
+		i++;
 	}
 	return (0);
 }
