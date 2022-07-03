@@ -16,7 +16,7 @@ int main(void)
 	}
 	while (str[i])
 	{
-		char x = toupper(str[i]);
+		int toupper(int str[i]);
 
 		putchar(x);
 		i++;
