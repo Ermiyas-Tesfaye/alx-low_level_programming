@@ -9,8 +9,10 @@ int main(void)
 	char i = 'z';
 
 	while (i >= 'a')
+	{
 		putchar(i);
 		i--;
+	}
 	printf("\n");
 	return (0);
 }
