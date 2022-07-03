@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *  main - Prints all hexadecimal letters 
+ *  main - Prints all hexadecimal letter
  *
  *  Return: Always (Success)
  */
