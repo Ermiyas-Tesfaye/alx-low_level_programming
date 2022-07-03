@@ -8,13 +8,13 @@ int main(void)
 	int n;
 
 	srand(time(0));
-	n = rand() -RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 
 	if (n>0)
-		printf("is positive");
+		puts("is positive");
 	else if (n<0)
-		printf("is negative");
+		puts("is negative");
 	else
-		printf("is zero");
+		puts("is zero");
 	return (0);
 }
