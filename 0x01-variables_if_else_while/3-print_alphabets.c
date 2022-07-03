@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 /**
  *  main - Prints alphabet in lowercase letters
  *
@@ -16,9 +17,7 @@ int main(void)
 	}
 	while (str[i])
 	{
-		int toupper(int str[i]);
-
-		putchar(x);
+		putchar(toupper(str[i]));
 		i++;
 	}
 	printf("\n");
