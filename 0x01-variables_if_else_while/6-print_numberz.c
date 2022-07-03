@@ -6,15 +6,12 @@
  */
 int main(void)
 {
-	int i = 0;
+	int x = 0;
+	char str[] = "0123456789";
 
-	while (i < 10)
-	{
-		int x = 0;
-
-		putchar(x);
+	while (str[x])
+		putchar(str[x]);
 		x++;
-		i++;
 	}
 	putchar('\n');
 	return (0);
