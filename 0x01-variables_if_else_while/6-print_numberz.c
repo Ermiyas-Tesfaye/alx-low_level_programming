@@ -10,8 +10,10 @@ int main(void)
 	char str[] = "0123456789";
 
 	while (str[x])
+	{
 		putchar(str[x]);
 		x++;
+	}
 	putchar('\n');
 	return (0);
 }
