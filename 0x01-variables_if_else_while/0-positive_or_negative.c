@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-/* more style doc for function main goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * Main -Prints if the number is zero, posetive, and negetive 
+ *
+ * Return: always (Success)
+ */
 int main(void)
 {
 	int n;
@@ -12,10 +14,13 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	if (n>0)
-		puts("is positive");
+		printf("%d is positive\n", n);
+	
 	else if (n<0)
-		puts("is negative");
+		printf("%d is negative\n", n);
+	
 	else
-		puts("is zero");
+		printf("%d is zero\n", n);
+	
 	return (0);
 }
