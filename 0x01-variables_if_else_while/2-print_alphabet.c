@@ -14,5 +14,6 @@ int main(void)
 		putchar(str[i]);
 		i++;
 	}
+	printf("\n");
 	return (0);
 }
