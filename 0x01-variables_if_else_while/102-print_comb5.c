@@ -28,14 +28,10 @@ int main(void)
 						putchar(z);
 						putchar(w);
 						if (x + y + z + w == 227 && x == 57)
-						{
 							break;
-						}
 						else
-						{
 							putchar(',');
 							putchar(' ');
-						}
 					}
 					w++;
 				}
