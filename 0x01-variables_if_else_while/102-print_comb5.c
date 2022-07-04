@@ -6,9 +6,8 @@
  */
 int main(void)
 {
-	int x, y, z, w;
+	int x = 48, y, z, w;
 
-	x = 48;
 	while (x <= 57)
 	{
 		y = 48;
@@ -27,11 +26,15 @@ int main(void)
 						putchar(' ');
 						putchar(z);
 						putchar(w);
-						if (x + y + z + w == 227 && x == 57)
-							break;
-						else
-							putchar(',');
-							putchar(' ');
+					if (x + y + z + w == 227 && x == 57)
+					{
+						break;
+					}
+					else
+					{
+						putchar(',');
+						putchar(' ');
+					}
 					}
 					w++;
 				}
