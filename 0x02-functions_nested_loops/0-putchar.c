@@ -2,9 +2,9 @@
 /**
  * main - Prints string character
  *
- * REturn: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	int i = 0;
 	char str[] = "_putchar";
