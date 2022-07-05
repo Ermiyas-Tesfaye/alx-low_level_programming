@@ -4,7 +4,7 @@
  *
  * Return: 0 if not lowercase and 1 if it is lowercase
  *
- * c - Parameter to be returned
+ * @c: Parameter to be returned
  */
 int _islower(int c)
 {
