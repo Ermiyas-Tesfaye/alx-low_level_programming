@@ -10,11 +10,11 @@ void time_table(void)
 
 	while (rone <= 9)
 	{
+		int cone = 0;
+
 		_putchar('0');
 		_putchar(',');
 		_putchar(' ');
-		int cone = 0;
-
 		while (cone <= 9)
 		{
 			int d;
