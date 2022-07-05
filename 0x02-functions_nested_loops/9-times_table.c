@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * time_table - shows the time table
+ * times_table - shows the time table
  *
  * Return: time table
  */
-void time_table(void)
+void times_table(void)
 {
 	int rone = 0;
 
