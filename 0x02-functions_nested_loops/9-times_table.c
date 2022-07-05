@@ -12,9 +12,6 @@ void times_table(void)
 	{
 		int cone = 0;
 
-		_putchar('0');
-		_putchar(',');
-		_putchar(' ');
 		while (cone <= 9)
 		{
 			int d;
