@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Print all small letter alphabets
+ * print_alphabet - Print all small letter alphabets
  *
  * Return: always 0 (Success)
  */
@@ -14,5 +14,4 @@ void print_alphabet(void)
 		ch++;
 	}
 	_putchar('\n');
-	return (0);
 }
