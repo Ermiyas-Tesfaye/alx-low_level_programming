@@ -8,16 +8,16 @@ int main(void)
 {
 	int i = 0;
 	int index = 0;
-	unsigned long f1 = 1;
-	unsigned long f2 = 2;
-	unsigned long temp = 0;
-	unsigned long ar[49];
+	long int f1 = 1;
+	long int f2 = 2;
+	long int temp = 0;
+	long int ar[49];
 
 	ar[index] = 1;
 	index++;
 	ar[index] = 2;
 	index++;
-	while (index < 50)
+	while (index < 49)
 	{
 		temp = f1 + f2;
 		ar[index] = temp;
@@ -27,9 +27,11 @@ int main(void)
 	}
 	while (i < index)
 	{
-		printf("%lu, ", ar[i]);
+		if (ar[i] == 20365011074)
+			printf("%ld\n", ar[i]);
+		else
+			printf("%ld, ", ar[i]);
 		i++;
 	}
-	printf("%lu\n", ar[index]);
 	return (0);
 }
