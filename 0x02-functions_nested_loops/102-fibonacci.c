@@ -11,7 +11,7 @@ int main(void)
 	long int f1 = 1;
 	long int f2 = 2;
 	long int temp = 0;
-	long int ar[49];
+	long int ar[50];
 
 	ar[index] = 1;
 	index++;
