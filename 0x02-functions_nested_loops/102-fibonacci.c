@@ -30,6 +30,6 @@ int main(void)
 		printf("%d, ", ar[i]);
 		i++;
 	}
-	printf("\n")
+	printf("\n");
 	return (0);
 }
