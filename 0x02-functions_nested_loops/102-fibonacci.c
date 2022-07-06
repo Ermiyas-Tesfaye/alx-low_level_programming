@@ -8,10 +8,10 @@ int main(void)
 {
 	int i = 0;
 	int index = 0;
-	long f1 = 1;
-	long f2 = 2;
-	long temp = 0;
-	long ar[49];
+	unsigned long f1 = 1;
+	unsigned long f2 = 2;
+	unsigned long temp = 0;
+	unsigned long ar[49];
 
 	ar[index] = 1;
 	index++;
@@ -27,9 +27,9 @@ int main(void)
 	}
 	while (i < index)
 	{
-		printf("%ld, ", ar[i]);
+		printf("%lu, ", ar[i]);
 		i++;
 	}
-	printf("%ld\n", ar[index]);
+	printf("%lu\n", ar[index]);
 	return (0);
 }
