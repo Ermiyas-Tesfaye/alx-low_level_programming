@@ -15,6 +15,6 @@ int main(void)
 			value = value + num;
 		num++;
 	}
-	printf("The sume of all multiple of 3 adn 5  under 1024 is %d\n", value);
+	printf("%d\n", value);
 	return (0);
 }
