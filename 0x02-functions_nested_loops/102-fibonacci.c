@@ -8,10 +8,10 @@ int main(void)
 {
 	int i = 0;
 	int index = 0;
-	long long f1 = 1;
-	long long f2 = 2;
-	long long temp = 0;
-	long long ar[49];
+	int f1 = 1;
+	int f2 = 2;
+	int temp = 0;
+	int ar[49];
 
 	ar[index] = 1;
 	index++;
