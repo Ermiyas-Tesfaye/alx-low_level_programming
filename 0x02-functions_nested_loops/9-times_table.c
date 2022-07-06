@@ -24,13 +24,16 @@ void times_table(void)
 			else
 				_putchar(' ');
 			_putchar((d % 10) + '0');
-			if (cone < 9)
+			if (cone == 0)
+				_putchar(',');
+			else if (cone < 9 && cone != 0)
 			{
 				_putchar(',');
 				_putchar(' ');
 			}
 			cone++;
 		}
+		_putchar('\n');
 		rone++;
 	}
 }
