@@ -17,7 +17,7 @@ int main(void)
 	index++;
 	ar[index] = 2;
 	index++;
-	while (index < 49)
+	while (index < 50)
 	{
 		temp = f1 + f2;
 		ar[index] = temp;
@@ -25,7 +25,7 @@ int main(void)
 		f2 = temp;
 		index++;
 	}
-	while (i <= index)
+	while (i < index)
 	{
 		if (ar[i] == 20365011074)
 			printf("%ld\n", ar[i]);
