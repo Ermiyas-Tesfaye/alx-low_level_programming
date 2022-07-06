@@ -28,7 +28,7 @@ int main(void)
 	}
 	while (i < index)
 	{
-		if ((ar[i)] !> 4000000)
+		if ((ar[i]) !> 4000000)
 			tot = tot + ar[i];
 		i++;
 	}
