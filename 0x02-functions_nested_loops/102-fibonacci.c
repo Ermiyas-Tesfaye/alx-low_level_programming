@@ -8,10 +8,10 @@ int main(void)
 {
 	int i = 0;
 	int index = 0;
-	int f1 = 1;
-	int f2 = 2;
-	int temp = 0;
-	int ar[49];
+	long f1 = 1;
+	long f2 = 2;
+	long temp = 0;
+	long ar[49];
 
 	ar[index] = 1;
 	index++;
@@ -25,11 +25,11 @@ int main(void)
 		f2 = temp;
 		index++;
 	}
-	while (i <= index)
+	while (i < index)
 	{
-		printf("%d, ", ar[i]);
+		printf("%ld, ", ar[i]);
 		i++;
 	}
-	printf("\n");
+	printf("%ld\n", ar[index]);
 	return (0);
 }
