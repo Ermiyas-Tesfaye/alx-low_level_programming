@@ -25,7 +25,7 @@ int main(void)
 		f2 = temp;
 		index++;
 	}
-	while (i < index)
+	while (i <= index)
 	{
 		if (ar[i] == 20365011074)
 			printf("%ld\n", ar[i]);
