@@ -5,10 +5,10 @@
  */
 int main(void)
 {
-	int long long largest;
+	int largest = 2;
+
 	int long long num = 612852475143;
 
-	largest = 2;
 	while (num > 1)
 	{
 		while (num % largest == 0)
