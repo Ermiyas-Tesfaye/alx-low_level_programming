@@ -17,6 +17,6 @@ int main(void)
 		}
 		largest++;
 	}
-	printf("%d", largest - 1);
+	printf("%d\n", largest - 1);
 	return (0);
 }
