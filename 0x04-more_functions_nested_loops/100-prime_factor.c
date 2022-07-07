@@ -7,7 +7,7 @@ int main(void)
 {
 	int largest = 2;
 
-	int long long num = 612852475143;
+	int long num = 612852475143;
 
 	while (num > 1)
 	{
