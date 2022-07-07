@@ -10,9 +10,9 @@ void more_numbers(void)
 	while (i < 10)
 	{
 		int index = 0;
-		int ar[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
+		char ar[] = "01234567891011121314";
 
-		while (index <= 14)
+		while (index <= 19)
 		{
 			_putchar(ar[index]);
 			index++;
