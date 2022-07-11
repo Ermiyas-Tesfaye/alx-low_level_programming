@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * _atoi - convert a string to an int
+ * _atoi - Convert char to int
  * @s: the string value
  * Author: Ermiyas Tesfaye
+ * Return: the integer value
  */
 int _atoi(char *s)
 {
