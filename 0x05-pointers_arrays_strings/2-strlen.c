@@ -10,9 +10,9 @@ int _strlen(char *s)
 	int i;
 
 	i = 0;
-	while (*s[i])
+	while (s[i])
 	{
-		if (*s[i] != ' ')
+		if (s[i] != ' ')
 			n++;
 		i++;
 	}
