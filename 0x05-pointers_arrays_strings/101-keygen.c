@@ -7,7 +7,7 @@
 int main(void)
 {
 	int i = 0;
-	char pass[15]
+	char pass[15];
 
 	while (i < 15)
 	{
