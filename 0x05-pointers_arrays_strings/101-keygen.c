@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "main.h"
 /**
  * main - generate random valid password
