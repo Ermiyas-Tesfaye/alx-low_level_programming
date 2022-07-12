@@ -1,20 +1,20 @@
 #include "main.h"
 /**
- * *_strcpy - copy the string pointer
- * @dest: returned value
- * @src: source
+ * main - generate random valid password
+ * Return: Always 0
  * Author: Ermiyas Tesfaye
  */
-char *_strcpy(char *dest, char *src)
+int main(void)
 {
-	char *s = dest;
+	int i = 0;
+	char pass[15]
 
-	while (*src != '\0')
+	while (i < 15)
 	{
-		*dest = *src;
-		dest++
-		src++;
+		pass[i] = 32 + rand() % 94;
+		i++;
 	}
-	*dest = '\0';
-	return (s);
+	pass[i] = '\0';
+	printf("%s\n", pass);
+	return (0);
 }
