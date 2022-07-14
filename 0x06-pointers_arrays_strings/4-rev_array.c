@@ -5,7 +5,7 @@
  * @n: number of element
  *Return: No return value
  */
-int reverse_array(int *a, int n)
+void reverse_array(int *a, int n)
 {
 	int i;
 	int temp;
@@ -16,5 +16,4 @@ int reverse_array(int *a, int n)
 		a[i] = a[n - i - 1];
 		a[n - i - 1] = temp;
 	}
-	return (a);
 }
