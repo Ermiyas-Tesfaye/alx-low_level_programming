@@ -19,7 +19,10 @@ char *cap_string(char *s)
 			for (j = 0; j <= 12; j++)
 			{
 				if (ar[j] == s[i] - 1)
-					s[i] = s[i] - 32;
+				{
+					if (s[i] >= 'a' && s[i] <= 'z')
+						s[i] = s[i] - 32;
+				}
 			}
 		}
 	i++;
