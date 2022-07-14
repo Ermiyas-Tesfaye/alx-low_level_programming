@@ -1,8 +1,7 @@
 #include "main.h"
-#include <string.h>
-#include <ctype.h>
 /**
  * string_toupper - change lower case to uppercase
+ * @s: string to be convert
  * Return: Upper
  */
 char *string_toupper(char *s)
