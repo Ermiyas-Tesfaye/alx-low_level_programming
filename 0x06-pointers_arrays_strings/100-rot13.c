@@ -11,13 +11,13 @@ char *rot13(char *s)
 	int i = 0;
 	int j;
 
-	while (s[i] != '\n')
+	while (*(s + i) != '\n')
 	{
 		for (j = 0; j <= 52; j++)
 		{
-			if (s[i] == a[j])
+			if (*(s + i) == a[j])
 			{
-				s[i] = rot[j];
+				*(s + i) = rot[j];
 				break;
 			}
 		}
