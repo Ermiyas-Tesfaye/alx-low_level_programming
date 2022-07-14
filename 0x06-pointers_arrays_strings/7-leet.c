@@ -16,7 +16,7 @@ char *leet(char *s)
 	{
 		for (j = 0; j < 5; j++)
 		{
-			if (*(s + i) == l_c[j] || *(s + i) === u_c[j])
+			if (*(s + i) == l_c[j] || *(s + i) == u_c[j])
 			{
 				*(s + i) = numbers[j];
 				break;
