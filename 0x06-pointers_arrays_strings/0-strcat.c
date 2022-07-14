@@ -3,6 +3,7 @@
  * *_strcat - concatinate two strings
  * @dest: the first string
  * @src: the second string
+ * Return: dest
  * Author Ermiyas Tesfaye
  */
 char *_strcat(char *dest, char *src)
@@ -18,7 +19,7 @@ char *_strcat(char *dest, char *src)
 	{
 		dest[i] = src[j];
 		i++;
-		j++
+		j++;
 	}
 	dest[i] = '\0';
 	return (dest);
