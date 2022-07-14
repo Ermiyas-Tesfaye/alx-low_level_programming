@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 int _putchar(char);
 char *_strcat(char *dest, char *src);
