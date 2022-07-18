@@ -6,7 +6,7 @@
  * Return: string starting from @c char
  * Author: Ermi
  */
-char *_strchar(char *s, char c)
+char *_strchr(char *s, char c)
 {
 	char *str;
 	int i;
