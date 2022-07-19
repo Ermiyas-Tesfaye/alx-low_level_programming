@@ -13,14 +13,18 @@ void print_diagsums(int *a, int size)
 
 	for (i = 0; i < size; i++)
 		for (j = 0; j < size; j++)
+		{
 			if (i == j)
 				c = c + a[i][j];
+		}
 	for (i = 0; i < size; i++)
 		for (j = 0; j < size; j++)
+		{
 			if (j == x)
 			{
 				d = d + a[i][x];
 				x--;
 			}
+		}
 	printf("%d, %d\n", c, d);
 }
