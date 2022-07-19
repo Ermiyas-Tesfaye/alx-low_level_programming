@@ -8,9 +8,8 @@
  */
 void print_diagsums(int *a, int size)
 {
-	int i, j;
+	int i, j, c, d;
 	int x = size - 1;
-	long c, d;
 
 	for (i = 0; i < size; i++)
 		for (j = 0; j < size; j++)
@@ -23,5 +22,5 @@ void print_diagsums(int *a, int size)
 				d = d + a[i][x];
 				x--;
 			}
-	printf("%ld, %ld\n", c, d);
+	printf("%d, %d\n", c, d);
 }
