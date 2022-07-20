@@ -8,9 +8,9 @@
 int prime_checker(int n, int i)
 {
 	if (i == n)
-		return (0);
-	if (n % i == 0)
 		return (1);
+	if (n % i == 0)
+		return (0);
 	return (prime_checker(n, i + 1));
 }
 /**
