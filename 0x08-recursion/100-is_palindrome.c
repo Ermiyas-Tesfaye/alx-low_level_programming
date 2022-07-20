@@ -19,7 +19,7 @@ int _strlen_recursion(char *s)
  */
 int pl(char *s, int l)
 {
-	if (l <= 1)
+	if (l < 1)
 		return (1);
 	if (*s == *(s + l))
 		return (pl(s + 1, l - 2));
