@@ -1,14 +1,17 @@
 #include "main.h"
 /**
- * _strlen - retern string len
- * @s: string value
- * Return: length of the string
+ * pl - palindrome
+ * @s: pointer to string
+ * @l: position
+ * Return: 1 or 0
  */
-_strlen(char *s)
+int pl(char *s, int l)
 {
-	if (*s == '\0')
-		return (0);
-	return (1 + _strlen(s + 1));
+	if (l < 1)
+		return (1);
+	if (*s == *(s + 1))
+		return (pl(s + 1, l - 2));
+	return (0);
 }
 /**
  * is_palindrome - check for string is palindrome or not
@@ -17,9 +20,7 @@ _strlen(char *s)
  */
 int is_palindrome(char *s)
 {
-	if (_strlen(s) == 0 || _strlen(s) == 1)
-		return (1);
-	else if (*s == *(s + (_strlen(s) - 1)))
-		return (is_palindrome(s + 1));
-	return (0);
+	int len = _strlen_recursion(s);
+
+	return (pl(s, len - 1));
 }
