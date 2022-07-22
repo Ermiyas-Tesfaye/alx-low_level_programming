@@ -5,8 +5,8 @@
  * @argv: argument vector
  * Return: always 0
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	printf("%i\n", argc - 1);
+	printf("%d\n", argc);
 	return (0);
 }
