@@ -5,8 +5,11 @@
  * @argv: argument vector
  * Return: always 0
  */
-int main (int argc, char **argv)
+int main (int argc, char *argv[])
 {
-	printf("%d\n", argc - 1);
+	if (argc > 0)
+		printf("%d\n", argc - 1);
+	else
+		printf("0");
 	return (0);
 }
