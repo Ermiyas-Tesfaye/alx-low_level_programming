@@ -3,7 +3,7 @@
 /**
  * main - a program that prints the minimum number of coins
  * @argc: argument count
- * @argument vector
+ * @argv: argument vector
  * Return: always 0
  */
 int main(int argc, char *argv[])
@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 					n -= 1;
 				count++;
 			}
-			printf("%d\n", count);	
+			printf("%d\n", count);
 		}
 	}
 	else
