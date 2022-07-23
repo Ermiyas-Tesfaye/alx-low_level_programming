@@ -3,14 +3,15 @@
  * _strcmp - function that compare two strings
  * @s1: the first string
  * @s2: the second string
- * Return: 0 or -ve or -ve value
+ * Return: 0, -tv or +tv
+ * Author: Ermiyas Tesfaye
  */
 int _strcmp(char *s1, char *s2)
 {
-	while (*st_1 != '\0' && *st_2 != '\0' && *st_1 == *st_2)
+	if ((*s1 != '\0') && (*s2 != '\0') && (*s1 == *s2))
 	{
-		st_1++;
-		st_2++;
+		s1++;
+		s2++;
 	}
-	return (*st_1 - *st_2);
+	return (*s1 - *s2);
 }
