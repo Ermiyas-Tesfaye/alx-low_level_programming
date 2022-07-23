@@ -3,7 +3,6 @@
 /**
  * _isnumber - chacke for number
  * @str: string value from argv
- * @ptr: copy of argv value
  * Return: 1 if no success on 0 for success
  */
 int _isnumber(char *str)
