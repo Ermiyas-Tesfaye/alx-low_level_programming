@@ -32,5 +32,5 @@ char *_strchr(char *s, char c)
 		}
 		x[j] = '\0';
 	}
-	return (x);
+	return (*x);
 }
