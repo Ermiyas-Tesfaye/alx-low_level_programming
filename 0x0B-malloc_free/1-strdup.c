@@ -18,6 +18,6 @@ char *_strdup(char *str)
 			ptr[i] = str[i];
 	}
 	ptr[i] = '\0';
-	free();
+	free(ptr);
 	return (ptr);
 }
