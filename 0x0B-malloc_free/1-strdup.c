@@ -24,12 +24,14 @@ int _size(char *str)
 char *_strdup(char *str)
 {
 	int i;
-	int j = _size(str);
-	char *ptr = (char *)malloc(sizeof(char) * j + 1);
-
-	if (ptr == NULL)
-		return (NULL);
+	int j;
+	char *ptr;
+	
 	if (str == NULL)
+		return (NULL);
+	j = _size(str);
+	ptr = (char *)malloc(sizeof(char) * j + 1);
+	if (ptr == NULL)
 		return (NULL);
 	for (i = 0; i < j; i++)
 		ptr[i] = str[i];
