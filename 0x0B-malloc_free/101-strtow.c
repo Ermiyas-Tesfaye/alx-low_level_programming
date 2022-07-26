@@ -10,9 +10,9 @@ char **strtow(char *str)
 	int i = 1, z = 1;
 	char **s;
 
-	if (str == NULL || *str == "")
+	if (str == NULL || *str == 0)
 		return (NULL);
-	while (*str[i - 1] == " " && str[i] != '\0')
+	while (*str[i - 1] == ' ' && str[i] != '\0')
 		i++;
 	s = malloc(sizeof(int *) * i);
 	if (s == NULL)
@@ -20,9 +20,9 @@ char **strtow(char *str)
 	for (k = 0; k < i; k++)
 	{
 		m = 1;
-		while (*str[z - 1] != " " && *str[z] != " " && str[z] != '\0')
+		while (*str[z - 1] != ' ' && *str[z] != ' ' && str[z] != '\0')
 		{
-			if (str[z + 1] == " ")
+			if (str[z + 1] == ' ')
 			{
 				z++;
 				m++;
@@ -35,7 +35,7 @@ char **strtow(char *str)
 		c = 0;
 		while (l < z)
 		{
-			while (str[l - 1] != " ")
+			while (str[l - 1] != ' ')
 			{
 				l++;
 				s[k][c] = str[l];
