@@ -6,7 +6,7 @@
  */
 char **strtow(char *str)
 {
-	int m, c, k;
+	int m, c, k, l = 0;
 	int i = 1, z = 1;
 	char **s;
 
