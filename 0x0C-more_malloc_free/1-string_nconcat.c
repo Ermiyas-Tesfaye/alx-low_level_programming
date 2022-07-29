@@ -4,14 +4,14 @@
  * string_nconcat - function that concatenates two strings
  * @s1: string one
  * @s2: string two
- * @n: size_t value
+ * @b: intiger that determine string index for s2
  * Return: a pointer of the compined string
  */
 char *string_nconcat(char *s1, char *s2, unsigned int b)
 {
 	size_t i, j, x;
 	char *str;
-	
+
 	i = strlen(s2);
 	if (i > b)
 		i = b;
