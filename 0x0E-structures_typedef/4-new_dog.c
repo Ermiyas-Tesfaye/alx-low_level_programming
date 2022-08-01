@@ -4,12 +4,13 @@
  * new_dog - a function that creates a new dog
  * @name: dog name
  * @age: dog age
- *@owner: dog owner
+ * @owner: dog owner
+ * Return: new dog
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *new_dog;
-	
+
 	new_dog = malloc(sizeof(dog_t));
 	new_dog->name = name;
 	new_dog->age = age;
