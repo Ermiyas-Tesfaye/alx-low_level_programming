@@ -1,8 +1,8 @@
 #include "dog.h"
 #include <stdio.h>
 /**
- *
- *
+ * print_dog - print atributes of dog class
+ * @d: pointer for dog class
  */
 void print_dog(struct dog *d)
 {
