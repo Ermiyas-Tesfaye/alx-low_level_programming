@@ -3,7 +3,7 @@
 #include <stddef.h>
 #include <stdarg.h>
 /**
- * void str_pr - print value
+ * str_pr - print value
  * @s: string
  */
 void str_pr(char *s)
