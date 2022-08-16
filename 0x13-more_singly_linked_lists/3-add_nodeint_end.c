@@ -5,7 +5,7 @@
  * add_nodeint_end - a fun.. that adds a new node at the end of a list
  * @head: pointer to head of the list
  * @n: value
- * Return address os the new element, or NULL on failer
+ * Return: address os the new element, or NULL on failer
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
