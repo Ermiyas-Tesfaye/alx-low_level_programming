@@ -8,19 +8,18 @@
  */
 size_t print_listint_safe(const listint_t *head)
 {
-	int difference, i, number;
+	int difference, i = 0, number;
 	void *address;
 
 	if (!head)
-		exit(98);
-	i = 0;
+		return (i);
 	while (head != NULL)
 	{
 		difference = head - head->next;
 		i++;
 		number = head->n;
 		printf("[%p] %i\n", (void *)head, number);
-		if (difference != 0)
+		if (difference > 0)
 			head = head->next;
 		else
 		{
