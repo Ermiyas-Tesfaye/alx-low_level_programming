@@ -20,7 +20,7 @@ size_t print_listint_safe(const listint_t *head)
 		i++;
 		number = head->n;
 		printf("[%p] %i\n", (void *)head, number);
-		if (difference > 0)
+		if (difference != 0)
 			head = head->next;
 		else
 		{
