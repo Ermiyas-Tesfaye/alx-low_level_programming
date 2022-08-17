@@ -11,6 +11,8 @@ size_t print_listint_safe(const listint_t *head)
 	int difference, i, number;
 	void *address;
 
+	if (!head)
+		exit(98);
 	i = 0;
 	while (head != NULL)
 	{
@@ -24,7 +26,7 @@ size_t print_listint_safe(const listint_t *head)
 		{
 			address = head->next;
 			number = head->next->n;
-			printf("-> [%p] %i\n", address, 98);
+			printf("-> [%p] %i\n", address, number);
 			break;
 		}
 	}
