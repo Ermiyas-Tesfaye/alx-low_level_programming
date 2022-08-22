@@ -10,6 +10,8 @@ int create_file(const char *filename, char *text_content)
 	int fd;
 	int i;
 
+	if (text_content == NULL)
+		text_content = "";
 	for (i = 0; text_content[i]; i++)
 		;
 	i++;
